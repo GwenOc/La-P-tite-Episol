@@ -11058,7 +11058,7 @@ Global Styles
  }
 /*hero*/
 #hero {     
-  background: url(../img/bannerMobile.jpg);
+  background: url(img/bannerMobile.jpg);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
