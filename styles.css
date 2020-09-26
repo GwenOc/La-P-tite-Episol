@@ -415,7 +415,7 @@ Global Styles
 }
 
 .display-6 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 350;
   line-height: 1.2;
 }
@@ -11154,5 +11154,12 @@ h1::first-letter,  h2::first-letter, h3::first-letter, h4::first-letter {
 @media (min-width: 992px) {
   .card-img-top {
     height: 25vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .slogan {
+    font-size: 1em;
+    font-weight: 500;
   }
 }
